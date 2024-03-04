@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-Toyz</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="image">
+                <center>
+                    <a href="home.html"><img src="logo.png"></a>
+                </center>
+            </div>
+            <nav>
+                <div id="nav" class="mobile">
+                    <span class="navbutton">&#9776;</span>
+                    <div class="nav-content">
+                        <a href="home.html">Home</a>
+                        <a href="products.html">Products</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="event.html">Event</a> 
+                        <a href="login.html">Login</a>
+                        <a href="register.html">Register</a>           
+                    </div>
+                </div>
+                <div id="navigation" class="desktop">
+                    <span class="pages"><a href="home.html">Home</a></span>
+                    <span class="pages"><a href="products.html">Products</a></span>
+                    <span class="pages"><a href="gallery.html">Gallery</a></span>
+                    <span class="pages"><a href="event.html">Event</a></span>
+                    <span class="pages"><a href="login.html">Login</a></span>
+                    <span class="register pages"><a href="register.html" id="register">Register</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content" id="register"> 
+            <div class="form">
+                <form id="register-form">
+                    <center><h3>Register</h3></center>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <div id='name-error'></div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <div id='email-error'></div>
+                    <label for="name">Password</label>
+                    <input type="password" id="password" name="password">
+                    <div id='password-error'></div>
+                    <label for="cpass">Confirm Password</label>
+                    <input type="password" id="cpass" name="cpass">
+                    <div id='cpass-error'></div>
+                    <label for="bday">Date of Birth</label>
+                    <input type="date" id="bday" name="bday">
+                    <div id='bday-error'></div>
+                    <input type="checkbox" id="terms" name="terms" value="agree">
+                    <label for="agree-terms" id="agree-class">I agree to <a href="#">terms and conditions.</a></label>
+                    <div id='terms-error'></div>
+                    <input type="submit" value="Register">
+                </form>
+            </div>
+            <div class="form" id="alt">
+                <center><span>Already have an account? <a href="login.html">Login</a></a></span></center>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <center>
+                <div class="logo">
+                    <a href="#"><img src="logo.png"></a>
+                </div>
+                <div class="socials">
+                    <a href="#">
+                        <img src="facebook.png"></img>
+                        <img src="instagram.png"></img>
+                        <img src="twitter.png"></img>
+                    </a>
+                </div>
+                <span>&#169; 2019-2023 HI-Toyz</span> <br>
+                <span>Jl. Bango I 22B, Pondok Labu, Cilandak, South Jakarta, Jakarta, Indonesia</span>
+            </center>
+        </div>
+    </footer>
+    <script src="myscripts.js"></script> 
+</body>
+</html>
