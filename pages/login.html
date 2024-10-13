@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HI-Toyz</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/logo.png">
+    <link rel="stylesheet" href="../assets/css/stylesheet.css">
 </head>
 <body>
     <header>
         <div id="header">
             <div id="image">
                 <center>
-                    <a href="home.html"><img src="logo.png"></a>
+                    <a href="home.html"><img src="../assets/images/logo.png"></a>
                 </center>
             </div>
             <nav>
@@ -40,33 +40,21 @@
         </div>
     </header>
     <main>
-        <div class="content" id="register"> 
+        <div class="content" id="login"> 
             <div class="form">
-                <form id="register-form">
-                    <center><h3>Register</h3></center>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
-                    <div id='name-error'></div>
+                <form id="login-form">
+                    <center><h3>Login</h3></center>
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                    <div id='email-error'></div>
+                    <input type="email" id="login-email" name="login-email" >
+                    <div id='login-email-error'></div>
                     <label for="name">Password</label>
-                    <input type="password" id="password" name="password">
-                    <div id='password-error'></div>
-                    <label for="cpass">Confirm Password</label>
-                    <input type="password" id="cpass" name="cpass">
-                    <div id='cpass-error'></div>
-                    <label for="bday">Date of Birth</label>
-                    <input type="date" id="bday" name="bday">
-                    <div id='bday-error'></div>
-                    <input type="checkbox" id="terms" name="terms" value="agree">
-                    <label for="agree-terms" id="agree-class">I agree to <a href="#">terms and conditions.</a></label>
-                    <div id='terms-error'></div>
-                    <input type="submit" value="Register">
+                    <input type="password" id="login-password" name="login-password">
+                    <div id='login-password-error'></div>
+                    <input type="submit" value="Login">
                 </form>
             </div>
             <div class="form" id="alt">
-                <center><span>Already have an account? <a href="login.html">Login</a></a></span></center>
+                <center><span>Don't have an account? <a href="register.html">Register</a></a></span></center>
             </div>
         </div>
     </main>
@@ -74,13 +62,13 @@
         <div id="footer">
             <center>
                 <div class="logo">
-                    <a href="#"><img src="logo.png"></a>
+                    <a href="#"><img src="../assets/images/logo.png"></a>
                 </div>
                 <div class="socials">
                     <a href="#">
-                        <img src="facebook.png"></img>
-                        <img src="instagram.png"></img>
-                        <img src="twitter.png"></img>
+                        <img src="../assets/images/facebook.png"></img>
+                        <img src="../assets/images/instagram.png"></img>
+                        <img src="../assets/images/twitter.png"></img>
                     </a>
                 </div>
                 <span>&#169; 2019-2023 HI-Toyz</span> <br>
@@ -88,6 +76,6 @@
             </center>
         </div>
     </footer>
-    <script src="myscripts.js"></script> 
+    <script src="../assets/js/myscripts.js"></script> 
 </body>
 </html>

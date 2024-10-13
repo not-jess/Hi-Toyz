@@ -177,7 +177,7 @@ header, #header{
     height: 30rem;
     margin:0;
     padding:0;
-    background: linear-gradient(#e2ad8256, #ffffff), url("h1.jpg");
+    background: linear-gradient(#e2ad8256, #ffffff), url("../images/h1.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     color:#143C54;
@@ -319,7 +319,7 @@ header, #header{
 #products .opening{
     height:8rem;
     padding-top:5rem;
-    background: linear-gradient(#e2ad8260,#e2ad8260), url("products.png");
+    background: linear-gradient(#e2ad8260,#e2ad8260), url("../images/products.png");
     background-size:contain;
     background-repeat:repeat;
 }
@@ -333,7 +333,7 @@ header, #header{
     text-align:justify;
 }
 #products #discount {
-    background-image: url("discount.jpg");
+    background-image: url("../images/discount.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -353,7 +353,7 @@ header, #header{
 #gallery .opening{
     height:8rem;
     padding-top:5rem;
-    background: linear-gradient(#e2ad8260,#e2ad8260), url("gallery.png");
+    background: linear-gradient(#e2ad8260,#e2ad8260), url("../images/gallery.png");
     background-size:contain;
     background-repeat:repeat;
     margin-bottom:0;
@@ -362,7 +362,7 @@ header, #header{
 .desc{
     height:3rem;
     width:100%;
-    background: linear-gradient(#e2ad8228,#e2ad820c), url("galleryredline.jpg");
+    background: linear-gradient(#e2ad8228,#e2ad820c), url("../images/galleryredline.jpg");
     background-size:contain;
     background-repeat:repeat;
     margin:0;
@@ -443,7 +443,7 @@ header, #header{
 #event .opening{
     height:8rem;
     padding-top:5rem;
-    background: linear-gradient(#e2ad8260,#e2ad8260), url("event.jpeg");
+    background: linear-gradient(#e2ad8260,#e2ad8260), url("../images/event.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -500,7 +500,7 @@ div#register, div#login{
     width:100%;
     padding:5.4rem 0;
     background-position: bottom;
-    background-image: url("mario.gif");
+    background-image: url("../images/mario.gif");
     background-repeat:repeat-x;
 }
 div#register{min-height:97vh;}
